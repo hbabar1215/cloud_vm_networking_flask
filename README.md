@@ -9,18 +9,17 @@
 
 ## Steps
 ### 1. VM Creation
-[screenshot]
+![vm creation](screenshots/createvm.png)
 
 ### 2. Networking (Port 5003 Open)
-[screenshot]
+![networking](screenshots/networking5003.png)
 
 ### 3. OS Update + Python Install
-[commands + screenshot]
+![installpython](screenshots/installpython.png)
 
 ### 4. Flask App Running
-[screenshot of terminal + browser]
+![flask](screenshots/runflaskonport.png)
 
-### 5. Public IP Access
-URL: http://XX.XX.XXX.XXX:5003  
-[screenshot]
-
+### 6. Public IP Access
+URL: http://34.28.245.116:5003/
+![page loading](screenshots/ipworks.png)
