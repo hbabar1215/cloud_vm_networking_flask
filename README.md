@@ -22,4 +22,4 @@
 
 ### 6. Public IP Access
 URL: http://34.28.245.116:5003/
-![page loading](screenshots/ipworks.png)
+![page loading](screenshots/flaskruns.png)
