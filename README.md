@@ -37,12 +37,12 @@ and run the following commands:
 - Then activate virtual environment: `source venv/bin/activate`
 - Install requirements: `pip install -r requirements.txt` 
 
-### 5. Flask App Running
+### 6. Flask App Running
 - Run the app on port 5003 wiht the following command: 
 `python3 app.py` 
 ![flask](screenshots/runflaskonport.png)
 
-### 6. Public IP Access
+### 7. Public IP Access
 - Click on your VM's external IP 
 - Be sure to open on http: http://34.28.245.116:5003/
 ![page loading](screenshots/flaskruns.png)
