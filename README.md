@@ -44,7 +44,7 @@ and run the following commands:
 - **Install requirements**: `pip install -r requirements.txt` 
 
 ### 6. Flask App Running
-- Run the app on port 5003 wiht the following command: `python3 app.py` 
+- Run the app on port 5003 with the following command: `python3 app.py` 
 
 ![flask](screenshots/runflaskonport.png)
 
