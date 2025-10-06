@@ -10,11 +10,12 @@
 ## Steps
 ### 1. VM Creation
 - Click "Create instance" and create free tier eligible vm (e2-micro)
+- Name: pythonflask5003
 ![vm creation](screenshots/createvm.png)
 
 ### 2. Firewall
 - In the firewall settings allow HTTP and HTTPS 
-![firewall](screenshots\firewall.png)
+![firewall](screenshots/firewall.png)
 
 ### 3. Networking (Port 5003 Open)
 - Create a firewall rule to open port 5003 for Flask.
@@ -22,7 +23,7 @@
     - Targets: All instances in the network
     - Source IPv4 ranges: 0.0.0.0/0
     - Protocols and ports: Specified protocols and ports> select "TCP"> type in "5003"> select "create"
-![networking](screenshots\port5003.png)
+![networking](screenshots/port5003.png)
 
 ### 4. OS Update + Python Install
 - From the VM instance we just created, click on "SSH"
