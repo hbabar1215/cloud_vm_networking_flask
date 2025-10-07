@@ -5,12 +5,13 @@
 - Cloud Provider: GCP
 
 ## Video recording: 
-- Zoom/Loom: 
+- Zoom/Loom: [Flask on GCP](https://drive.google.com/file/d/1z4wg_7Bw6ouj-tk-c1jjwOp5dDXyGdIQ/view?usp=sharing)
 
 ## Steps
 ### 1. VM Creation
 - Click "Create instance" and create free tier eligible vm (e2-micro)
 - **Name**: pythonflask5003
+- **OS image**: Ubuntu LTS (recommended)
 
 ![vm creation](screenshots/createvm.png)
 
@@ -51,5 +52,6 @@ and run the following commands:
 ### 7. Public IP Access
 - Click on your VM's external IP 
 - Be sure to open on **http**: http://34.28.245.116:5003/
+    - Note: The vm was disabled therefore link is not accessible.  
 
 ![page loading](screenshots/flaskruns.png)
