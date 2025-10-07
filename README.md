@@ -1,7 +1,7 @@
 # Flask on Cloud VM (Assignment 2)
 
 ## Student Info
-- Name:  Huma Babar
+- Name: Huma Babar
 - Cloud Provider: GCP
 
 ## Video recording: 
@@ -9,7 +9,7 @@
 
 ## Steps
 ### 1. VM Creation
-- Click "Create instance" and create free tier eligible vm (e2-micro)
+- Click **"Create instance"** and create free tier eligible vm (e2-micro)
 - **Name**: pythonflask5003
 - **OS image**: Ubuntu LTS (recommended)
 
@@ -52,6 +52,6 @@ and run the following commands:
 ### 7. Public IP Access
 - Click on your VM's external IP 
 - Be sure to open on **http**: http://34.28.245.116:5003/
-    - Note: The vm was disabled therefore link is not accessible.  
+    - Note: The vm was deleted therefore the link above is not accessible.  
 
 ![page loading](screenshots/flaskruns.png)
